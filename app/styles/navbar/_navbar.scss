@@ -1,0 +1,47 @@
+
+.navbar
+{
+    background-color:#BD2333;
+    border-radius: 0px;
+    height:80px;
+    min-height: 0px;
+    margin-bottom: 0px;
+    
+    .nav-item
+    {
+        border-right:solid 2px white;
+    }
+    .logo
+    {
+        position: absolute;
+        left:10px;
+        top:15px;
+        width:2000px;
+        max-width: 2000%;
+        
+    }
+    .collapse
+    {
+        position: absolute;
+        left:85%;
+        .nav-item:last-child
+        {
+            border-right:none;
+        }
+        ul{
+            border-left:solid 1px white;
+            border-right:solid 1px white;
+            padding: 20%; 
+        }
+        li{
+            a{
+                padding: 30%;
+                color: white
+            }
+        }
+        
+    }
+   
+}
+
+

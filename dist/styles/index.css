@@ -1,0 +1,44 @@
+.container-headline {
+  background-image: url("../images/burger.jpg");
+  /* The image used */
+  background-size: 300px 100px;
+  height: 500px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  height: 500px;
+}
+
+.container-headline .banner {
+  width: 960px;
+  max-width: 90%;
+  position: relative;
+  text-align: center;
+}
+
+.container-headline .banner .text-banner {
+  color: white;
+  font-size: 65px;
+  padding: 20px;
+  font-family: "noto-serif";
+}
+
+.container-headline .banner .content-text {
+  font-family: "noto-serif";
+  font-size: 25px;
+  padding-top: 10px;
+  color: white;
+}
+
+.container-headline .banner .form-group {
+  padding: 12px;
+}
+
+.container-headline .banner .form-group .form-control {
+  font-family: "noto-serif";
+  font-size: 25px;
+  padding: 25px;
+}

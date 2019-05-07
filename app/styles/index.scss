@@ -1,0 +1,47 @@
+$font-noto : 'noto-serif';
+.container-headline
+{
+  background-image: url("../images/burger.jpg"); /* The image used */
+  background-size: 300px 100px;
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  height:500px;
+  .banner
+  {
+    width: 960px; 
+    max-width: 90%;
+    position: relative;
+    text-align: center;
+    
+    
+    .text-banner
+    {
+      color:white;
+      font-size: 65px;
+      padding:20px;
+      
+      font-family: $font-noto;
+    }
+    .content-text
+    {
+      font-family: $font-noto;
+      font-size: 25px;
+      padding-top:10px;
+      color:white;
+    }
+    .form-group
+    {
+      
+      padding: 12px;
+      .form-control
+      {
+        font-family: $font-noto;
+        font-size: 25px;
+        padding: 25px;
+      }
+    }
+    
+  }
+}
