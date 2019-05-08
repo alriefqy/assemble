@@ -10,9 +10,16 @@
     },
     "content": {
         "slider":{
-          "magazine": "Magazine",
-          "guide" : "Discover the MICHELIN Guide restaurants Selection"
+          "title": "Magazine"
+        },
+        "magazine":{
+          "title": "Apa"
+        },
+        "guide":{
+          "title" : "Discover the MICHELIN Guide restaurants Selection"
         }
+        
+        
 
 
     }

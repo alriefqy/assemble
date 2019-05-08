@@ -1,3 +1,19 @@
+.carousel-sellection
+{
+    .item
+    {
+      
+      height:500px;
+      padding:0px;
+      .img-fluid
+      {
+          width: 100%;
+          height:500px;
+          border-radius:5px;
+          box-shadow: 1px 1px 1px 1px #b4aeae;
+      }
+    }
+}
 @media (min-width: 768px) {
     /* show 3 items */
     .carousel-inner .active,
@@ -59,48 +75,3 @@
       visibility: visible;
     }
   }
-  
-
-.more
-{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: relative;
-    top:30px;
-    button
-    {
-        width: 200px;
-        height:50px;
-        background-color: white;
-        border:solid 1px #4d4d4d;
-        
-    }
-}
-.container
-{
-    position: relative;
-    top:80px;
-    .line{
-        width:80px;
-        height:5px;
-        border: solid 2px red;
-        background-color: red;
-        position: relative;
-        top:450px;
-    }
-}
-.card
-{
-  border: 0px;
-  button{
-    border-radius:5px;
-    background-color:#E8E8E8;
-    font-family: sans-serif;
-    color: #4D4D4D;
-  }
-  .category-card,.time-card
-  {
-    color : #757575;
-    font-family: sans-serif;
-    font-size: 16px;
-  }
-}
